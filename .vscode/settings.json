@@ -1,3 +1,7 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "prettier.useTabs": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.withNodeModules": true
 }
