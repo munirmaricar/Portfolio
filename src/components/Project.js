@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import sanityClient from '../client.js';
+import BlockContent from '@sanity/block-content-to-react';
 
 export default function Project() {
 	const [projectData, setProjectData] = useState(null);
@@ -57,7 +58,11 @@ export default function Project() {
 										: {project.type}
 									</span>
 									<p className="my-6 text-lg text-gray-700 leading-relaxed">
-										{project.description}
+										<BlockContent
+											blocks={project.description}
+											projectId="0qak8qh4"
+											dataset="production"
+										/>
 									</p>
 									<a
 										href={project.projectUrl}

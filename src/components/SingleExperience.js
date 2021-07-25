@@ -19,13 +19,6 @@ export default function SingleExperience() {
 			endDate,
 			employmentType,
 			description,
-			mainImage{
-                asset->{
-                    _id,
-                    url
-                },
-                alt
-            },
         }`
 			)
 			.then((data) => setSingleExperience(data[0]))
@@ -45,12 +38,6 @@ export default function SingleExperience() {
 							</h1>
 						</div>
 					</div>
-					<img
-						src={singleExperience.mainImage.asset.url}
-						alt={singleExperience.jobTitle}
-						className="w-full object-cover rounded-t"
-						style={{ height: '400px' }}
-					/>
 				</header>
 				<div className="px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
 					<BlockContent

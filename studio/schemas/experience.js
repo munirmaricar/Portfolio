@@ -59,14 +59,6 @@ export default {
 			title: 'Description',
 			type: 'blockContent',
 		},
-		{
-			name: 'mainImage',
-			title: 'Supporting Documents',
-			type: 'image',
-			options: {
-				hotspot: true,
-			},
-		},
 	],
 
 	preview: {
