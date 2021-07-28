@@ -1,36 +1,38 @@
-@import url('https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css');
-@import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js');
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js");
 
 body {
-	background: linear-gradient(to right bottom, #282828, rgb(22, 21, 21)) fixed;
-	height: 100%;
-	width: 100%;
+  background: linear-gradient(to right bottom, #282828, rgb(22, 21, 21)) fixed;
+  height: 100%;
+  width: 100%;
 }
 
 .main-font {
-	font-family: 'Lato';
-	font-weight: 700;
+  color: whitesmoke;
+  font-family: "Lato";
+  font-weight: 700;
 }
 
 .prose img {
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
-.nav-item {
-	color: whitesmoke;
+.nav-item,
+.footer-item {
+  color: whitesmoke;
 }
 
 .nav-item:hover {
-	transition: all 200ms ease-out;
-	-webkit-transition: all 200ms ease-out;
-	color: #3500d3;
+  transition: all 200ms ease-out;
+  -webkit-transition: all 200ms ease-out;
+  color: #3500d3;
 }
 
 .nav-item-active {
-	color: #3500d3;
+  color: #3500d3;
 }
