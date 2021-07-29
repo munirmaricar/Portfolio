@@ -1,14 +1,14 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
-import coding from '../media/Coding.webp';
+import coding from '../media/Coding.svg';
 
 export default function Home() {
 	return (
-		<main className="px-5 align-middle sm:mt-4 md:mt-16 lg:mt-36">
+		<main className="px-5 align-middle mt-8 mb-44 md:mt-16 md:mb-14 lg:mt-36 lg:mb-48">
 			<section className="grid grid-cols-1 lg:grid-cols-3">
 				<div className="col-span-2">
 					<TypeIt
-						className="main-font text-4xl cursor md:text-6xl"
+						className="main-font font-medium text-4xl cursor md:text-6xl"
 						options={{
 							waitUntilVisible: true,
 							speed: 50,
@@ -34,12 +34,16 @@ export default function Home() {
 							return instance;
 						}}
 					/>
+					{/* <h1 className="text-4xl cursor md:text-6xl main-font font-medium">
+						Hi! My name is Munirudeen Maricar, and I am a final-year
+						Artificial Intelligence and Computer Science student.
+					</h1> */}
 				</div>
 				<div class="col-span-1">
 					<center>
 						<img
 							src={coding}
-							className="mx-auto mt-10 md:mt-14 lg:mt-auto h-auto sm:w-64 md:w-96 lg:position-relative"
+							className="mx-auto mt-6 h-auto w-screen md:w-full md:mt-10 lg:mt-auto"
 							alt="An illustration of me coding."
 						/>
 					</center>

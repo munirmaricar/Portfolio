@@ -14,7 +14,10 @@ body {
 .main-font {
 	color: whitesmoke;
 	font-family: 'Lato';
-	font-weight: 700;
+}
+
+.page-header {
+	text-decoration-color: #3500d3;
 }
 
 .prose img {
@@ -31,9 +34,5 @@ body {
 .nav-item:hover {
 	transition: all 200ms ease-out;
 	-webkit-transition: all 200ms ease-out;
-	color: #3500d3;
-}
-
-.nav-item-active {
 	color: #3500d3;
 }

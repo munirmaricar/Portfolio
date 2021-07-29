@@ -15,7 +15,7 @@ export default function Footer() {
 	};
 
 	return (
-		<footer className="mt-20 md:mt-12 lg:mt-28">
+		<footer>
 			<center>
 				<div className="px-2">
 					<a
@@ -83,12 +83,9 @@ export default function Footer() {
 					</a>
 				</div>
 				<div className="mt-2">
-					<h1 className="footer-item text-lg lg:text-base">
+					<h1 className="footer-item font-medium text-lg lg:text-base">
 						© {getCurrentYear()}:{' '}
-						<a
-							className="nav-item font-bolder no-underline"
-							href="/"
-						>
+						<a className="nav-item font-bold no-underline" href="/">
 							Munirudeen Maricar
 						</a>
 						. All rights reserved.

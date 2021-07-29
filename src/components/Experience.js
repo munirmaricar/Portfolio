@@ -31,9 +31,9 @@ export default function Experience() {
 	}, []);
 
 	return (
-		<main className="min-h-screen py-2">
+		<main className="py-2">
 			<section className="container mx-auto">
-				<h1 className="text-5xl flex justify-center main-font">
+				<h1 className="text-5xl flex justify-center underline main-font page-header font-bold">
 					Work Experience
 				</h1>
 				<div className="py-4 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
