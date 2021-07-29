@@ -28,18 +28,6 @@ export default {
 			type: 'date',
 		},
 		{
-			name: 'type',
-			title: 'Type',
-			type: 'string',
-			options: {
-				list: [
-					{ value: 'personal', title: 'Personal' },
-					{ value: 'university', title: 'University' },
-					{ value: 'work', title: 'Work' },
-				],
-			},
-		},
-		{
 			name: 'projectUrl',
 			title: 'Project URL',
 			type: 'url',
@@ -53,7 +41,7 @@ export default {
 	preview: {
 		select: {
 			title: 'projectName',
-			associatedWith: 'associatedWith',
+			projectUrl: 'projectUrl',
 		},
 	},
 };

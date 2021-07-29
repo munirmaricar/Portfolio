@@ -15,7 +15,7 @@ export default function Footer() {
 	};
 
 	return (
-		<footer>
+		<footer className="mt-20 md:mt-12 lg:mt-28">
 			<center>
 				<div className="px-2">
 					<a

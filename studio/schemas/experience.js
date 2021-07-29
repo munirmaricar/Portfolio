@@ -59,6 +59,14 @@ export default {
 			title: 'Description',
 			type: 'blockContent',
 		},
+		{
+			name: 'mainImage',
+			title: 'Header Image',
+			type: 'image',
+			options: {
+				hotspot: true,
+			},
+		},
 	],
 
 	preview: {
