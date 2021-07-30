@@ -36,3 +36,7 @@ body {
 	-webkit-transition: all 200ms ease-out;
 	color: #3500d3;
 }
+
+.card-body {
+	background: linear-gradient(to right bottom, rgb(22, 21, 21), #282828) fixed;
+}
