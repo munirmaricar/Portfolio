@@ -40,3 +40,10 @@ body {
 .card-body {
 	background: linear-gradient(to right bottom, rgb(22, 21, 21), #282828) fixed;
 }
+
+.experience-button {
+	color: whitesmoke;
+	background-color: #3500d3;
+}
+
+

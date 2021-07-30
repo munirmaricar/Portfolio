@@ -61,7 +61,7 @@ export default {
 		},
 		{
 			name: 'mainImage',
-			title: 'Header Image',
+			title: 'Header image',
 			type: 'image',
 			options: {
 				hotspot: true,
@@ -72,8 +72,8 @@ export default {
 	preview: {
 		select: {
 			title: 'jobTitle',
-			employmentType: 'employmentType',
 			company: 'company',
+			media: 'mainImage',
 		},
 	},
 };

@@ -51,7 +51,7 @@ export default function Project() {
 										:{' '}
 										{new Date(
 											project.startDate
-										).toLocaleDateString()}
+										).toLocaleDateString('en-GB')}
 									</span>
 									<br></br>
 									<span>
@@ -61,7 +61,7 @@ export default function Project() {
 										:{' '}
 										{new Date(
 											project.endDate
-										).toLocaleDateString()}
+										).toLocaleDateString('en-GB')}
 									</span>
 									<p className="my-6 text-lg main-font leading-relaxed">
 										<BlockContent

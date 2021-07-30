@@ -1,6 +1,6 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
-import coding from '../media/Coding.svg';
+import coding from '../media/Coding.webp';
 
 export default function Home() {
 	return (
