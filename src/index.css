@@ -9,6 +9,7 @@ body {
 	background: linear-gradient(to right bottom, #282828, rgb(22, 21, 21)) fixed;
 	height: 100%;
 	width: 100%;
+	overscroll-behavior: auto;
 }
 
 .main-font {
@@ -46,4 +47,15 @@ body {
 	background-color: #3500d3;
 }
 
+::-webkit-scrollbar {
+	width: 12px;
+}
 
+::-webkit-scrollbar-track {
+	background: #282828;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #3500d3;
+	border-radius: 200px;
+}
